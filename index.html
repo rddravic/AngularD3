@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">  
+        <link rel="stylesheet" type="text/css" href="http://dc-js.github.io/dc.js/css/dc.css"/>  
+  </head>
+  <body>
+    <div ng-app="chartApp" ng-controller="SalesController">
+        <div bar-chart chart-data="salesData"></div>
+        <div line-chart chart-data="salesData"></div>
+        <div bar-chartnew chart-data="salesData1" id="test"></div>
+    </div>
+    <script type="text/javascript" src="http://dc-js.github.io/dc.js/js/d3.js"></script>
+    <script type="text/javascript" src="http://dc-js.github.io/dc.js/js/crossfilter.js"></script>
+    <script type="text/javascript" src="http://dc-js.github.io/dc.js/js/dc.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js'></script>
+    <script src="js/index.js"></script> 
+    <script src="js/angularD3-charts.js"></script>    
+    <script type="text/javascript">
+
+</script>
+  </body>
+</html>
